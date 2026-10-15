@@ -302,9 +302,9 @@
                             <div class="polaroid-media-box">
                                 <div class="polaroid-placeholder" id="placeholder-emo-1">
                                     <i class="fa-solid fa-video" style="font-size: 38px; color: #94a3b8;"></i>
-                                    <label class="btn-upload-label"><i class="fa-solid fa-upload"></i> Upload Video<input type="breathing.mp4" accept="video/*" onchange="loadVideo(event, 'vid-emo-1', 'placeholder-emo-1')"></label>
+                                    <label class="btn-upload-label"><i class="fa-solid fa-upload"></i> Upload Video<input type="file" accept="video/*" onchange="loadVideo(event, 'vid-emo-1', 'placeholder-emo-1')"></label>
                                 </div>
-                                <video id="vid-emo-1" controls playsinline></video>
+                                <video id="vid-emo-1" controls="" playsinline="" src="breathing.mp4" style="display: block;"></video>
                             </div>
                             <div class="polaroid-caption">
                                 <label class="btn-upload-label" style="padding:4px 10px; font-size:12px;"><i class="fa-solid fa-arrows-rotate"></i> Replace Video<input type="file" accept="video/*" onchange="loadVideo(event, 'vid-emo-1', 'placeholder-emo-1')"></label>
